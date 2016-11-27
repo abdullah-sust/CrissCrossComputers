@@ -22,9 +22,8 @@
 	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 			<form id="register" role="form" method="post" action="return validateForm()" autocomplete="off" name="register">
 				<h3>Merchant Registration at Criss Cross Computers</h3>
-				<p>Already a member? <a href='login.php'>Login</a></p>
+				<p >Already a member?<a href='login.php'>Login</a></p>
 				<hr>
-
 				
 				<div class="form-group">
 					<input type="text" name="companyName" id="companyName" class="form-control input-lg" placeholder="Company Name" value="" tabindex="1">

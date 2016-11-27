@@ -19,12 +19,181 @@
 <body>
 <div class="container">
 	<div class="row">
-	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" >
 			<h3>Criss Cross Payments : <?php echo $_SESSION['memberID'];?></h3>
-			<p><a href='logout.php'>Logout</a> | <a href='memberpage.php'>Home</a> | <a href='memberTransaction.php'>Transactions</a></p>
+			<p><a href='memberpage.php'>Home</a> | <a href='memberTransaction.php'>Transactions</a> | <a href='changePassword.php'>Change password</a> | <a href='logout.php'>Logout</a></p>
 			<hr>
 			
-			<table width='75%'><tr><td>Member ID</td><td>:&nbsp;<?php echo $_SESSION['memberID'];?></td></tr><tr><td>Company Name</td><td>:&nbsp;<?php echo $_SESSION['companyName'];?></td></tr><tr><td>Company Type</td><td>:&nbsp;<?php echo $_SESSION['companyType'] ;?></td></tr><tr><td>Company Address</td><td>:&nbsp;<?php echo $_SESSION['companyAddress'] ;?></td></tr><tr><td>Contact Person</td><td>:&nbsp;<?php echo $_SESSION['contactPerson'] ;?></td></tr><tr><td>Contact Designation</td><td>:&nbsp;<?php echo $_SESSION['contactDesignation'] ;?></td></tr><tr><td>Mobile</td><td>:&nbsp;<?php echo $_SESSION['mobile'] ;?></td></tr><tr><td>Email</td><td>:&nbsp;<?php echo $_SESSION['email'] ;?></td></tr><tr><td>Bank Account Title</td><td>:&nbsp;<?php echo $_SESSION['bankAccountTitle'] ;?></td></tr><tr><td>Bank Account Number</td><td>:&nbsp;<?php echo $_SESSION['bankAccountNumber'] ;?></td></tr><tr><td>Bank Name</td><td>:&nbsp;<?php echo $_SESSION['bankName'] ;?></td></tr><tr><td>Branch</td><td>:&nbsp;<?php echo $_SESSION['branch'] ;?></td></tr><tr><td>IP</td><td>:&nbsp;<?php echo $_SESSION['ip'] ;?></td></tr><tr><td>Active?</td><td>:&nbsp;<?php echo $_SESSION['active'] ;?></td></tr></table>	
+			<table>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto; " class="form-control" placeholder="Message">Member ID:</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['memberID'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto; " class="form-control" placeholder="Message">Company Name	: </label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto; " class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['companyName'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Company Type	: </label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['companyType'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Company Address	:</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['companyAddress'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Contact Person	:</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['contactPerson'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Contact Designation :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['contactDesignation'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Mobile :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['mobile'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Email :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['email'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Bank Account Title :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['bankAccountTitle'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Bank Account Number :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['bankAccountNumber'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Bank Name	:</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['bankName'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Branch :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['branch'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">IP :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['ip'];?></label>
+	    				</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">Active? :</label>
+	    				</div>
+					</td>
+					<td>
+						<div class="form-group">
+	    					<label style="height: auto;" class="form-control" placeholder="Message">&nbsp;<?php echo $_SESSION['active'];?></label>
+	    				</div>
+					</td>
+				</tr>
+			</table>	
 		</div>
 	</div>
 </div>

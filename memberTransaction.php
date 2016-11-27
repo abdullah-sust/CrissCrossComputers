@@ -34,7 +34,7 @@
     <div class="row">
     
     <h3>Criss Cross Payments : <?php echo $memberID;?></h3>
-      <p><a href='logout.php'>Logout</a> | <a href='memberpage.php'>Home</a> | <a href='memberTransaction.php'>Transactions</a></p>
+      <p><a href='memberpage.php'>Home</a> | <a href='changePassword.php'>Change password</a> | <a href='logout.php'>Logout</a></p>
       <hr>
     
         <div class="col-md-10 col-md-offset-1">

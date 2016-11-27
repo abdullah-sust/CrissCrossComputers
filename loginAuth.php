@@ -29,7 +29,7 @@
 
 			$password=MD5($password);
 			
-			$query="SELECT * FROM members WHERE ( memberID='$companyName' ) AND password='$password'";   //   OR companyName='$companyName' OR email='$companyName'
+			$query="SELECT * FROM members WHERE ( memberID='$companyName' ) AND password='$password'"; //   OR companyName='$companyName' OR email='$companyName'
 			$result=$conn->query($query);
 
 				if($result->num_rows >0)
@@ -60,7 +60,8 @@
 				}
 				else
 				{
-					header("Location: index.php");
+					//$_SESSION['msg']='Id or Password might be wrong';
+					header("Location: login.php");
 				}
 				$conn->close();
 		}
