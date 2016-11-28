@@ -1,4 +1,14 @@
 # CrissCrossComputers
-This project is done for Criss Cross Computers. A little contribution by me for 3C. 
+This project is done for CrissCrossComputers(3C). A little contribution by me for 3C. 
 
-Supervised by Mr. Abu Shoeb.
+## Supervisor 
+Mr. Abu Shoeb<br>
+shoeb@crisscrossbd.com<br>
+
+## Technology
+PHP
+javaScript
+HTML 5.0
+CSS
+MySQL
+bootstrap
