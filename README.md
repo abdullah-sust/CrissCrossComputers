@@ -5,10 +5,15 @@ This project is done for CrissCrossComputers(3C). A little contribution by me fo
 Mr. Abu Shoeb<br>
 shoeb@crisscrossbd.com<br>
 
+## Developer
+Md. Abdullah Al Awal<br>
+abdullah@student.sust.edu<br>
+
+
 ## Technology
-PHP
-javaScript
-HTML 5.0
-CSS
-MySQL
-bootstrap
+PHP<br>
+javaScript<br>
+HTML 5.0<br>
+CSS<br>
+MySQL<br>
+bootstrap<br>
